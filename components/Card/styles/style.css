@@ -1,0 +1,146 @@
+body {
+    background-color: #0e1217;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1f26;
+    height: 412px;
+    width: 314px;
+    border-radius: 10px;
+    border: 1px solid #5d6064;
+    padding: 10px;
+}
+.card:hover{
+    border: 1px solid #c2c5ca;
+    cursor: pointer;
+}
+.cardIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5px;
+}
+.iconoSuperior {
+    height: 30px;
+    border-radius: 8px;
+}
+.imgPpal{
+    width: 100%;
+    border-radius: 10px;
+}
+p{
+    color: white;
+}
+.textoPpalCard{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+}
+.hashtags{
+    display: flex;
+    gap: 10px;
+    margin: -10px 0 0 0;
+}
+.botHashtag{
+    padding: 4px;
+    border: 1px solid #5d6064;
+    border-radius: 5px;
+}
+.iconosInferiores{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-right: 10px;
+    height: 35px;
+}
+.botIcono{
+    background-color:transparent;
+    border: none;
+    font-size: 14px;
+    color:white;
+}
+.flechas{
+    display: flex;
+    flex-direction: row;
+    background-color: #272b34;
+    height: 24px;
+    align-items: center;
+    border-radius: 10px;
+}
+.flechas2{
+    display: flex;
+    flex-direction: row;
+    background-color: #272b34;
+    height: 24px;
+    align-items: center;
+    border-radius: 10px;
+    padding-right: 5px;
+}
+.flechas2:hover{
+    background-color: #39e58c;
+    color: black;
+}
+.flechaAbajo{
+    font-size: 14px;
+    border: 0;
+    border-radius: 8px;
+    background-color: transparent;
+}
+.flechaAbajo:hover{
+    background-color: #e55339;
+}
+.comments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 40px;
+    height: 20px;
+}
+.comments:hover{
+    background-color: #3959e5;
+}
+.textInf{
+    color: white;
+    font-weight: bold;
+}
+i{
+    color: white;
+}
+.share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17px;
+    height: 17px;
+    border-radius: 7px;  
+}
+.share:hover{
+    background-color: #b439e5;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17px;
+    height: 17px;
+    border-radius: 7px;  
+}
+.copy:hover{
+    background-color: #dae539;
+}
+
+
+
+
+
+
+
