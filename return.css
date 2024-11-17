@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    background: rgb(245, 237, 237);
+}
+
+.return{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}
